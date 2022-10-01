@@ -4,6 +4,7 @@ import Resume from './pages/resume/Resume';
 import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
 import Contact from './pages/contact/Contact';
+import Footer from './pages/footer/footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Portfolio');
@@ -30,6 +31,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
     </div>
   );
 }
