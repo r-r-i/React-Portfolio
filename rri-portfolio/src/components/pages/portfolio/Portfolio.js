@@ -3,10 +3,12 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div>
-      <h1>About me</h1>
-      <p>
-        My name is Ruben Iacono. I am currently studying web development.
-      </p>
+      <div class="page-container">
+        <h1 class="page-header">Portfolio</h1>
+        <p class="page-content">
+          These are some projects i've worked on recently.
+        </p>
+      </div>
     </div>
   );
 }

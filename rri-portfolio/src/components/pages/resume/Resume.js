@@ -3,10 +3,12 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>About me</h1>
-      <p>
-        My name is Ruben Iacono. I am currently studying web development.
-      </p>
+      <div class="page-container">
+        <h1 class="page-header">Resume</h1>
+        <p class="page-content">
+          Below is my resume.
+        </p>
+      </div>
     </div>
   );
 }
