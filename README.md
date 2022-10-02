@@ -2,7 +2,9 @@
 
 ## Task
 ```
-For this challenge, I was givent he task of creating a portfolio using the React skills I have acquired so far. This application is deployed via GitHub pages.
+For this challenge, I was givent he task of creating a portfolio using the 
+React skills I have acquired so far. This application is deployed via GitHub 
+pages.
 ```
 
 ## Submission
@@ -16,7 +18,8 @@ Deployed via GitHub pages.
 ## Installation Instructions
 
 ```
-To install necessary dependencies, run the following command from the root directory:
+To install necessary dependencies, run the following command from the
+root directory:
 
 npm i
 
