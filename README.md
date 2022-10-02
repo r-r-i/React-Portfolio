@@ -1,4 +1,4 @@
-# React: React Portfolio
+# React : React Portfolio
 
 ## Task
 ```
@@ -49,4 +49,4 @@ Unlicensed
 ## Contact
 
 - [GitHub](https://github.com/r-r-i)
-- [email](mailto:riaconoo@icloud.com)
+- [Email](mailto:riaconoo@icloud.com)
