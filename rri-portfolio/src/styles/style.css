@@ -65,7 +65,8 @@ body {
     margin-bottom: 25px
 }
 .icon {
-    font-size: 25px;
-    color: var(--main-text)
+    font-size: 27px;
+    color: var(--main-text);
+    padding: 30px
 }
 

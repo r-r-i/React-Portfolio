@@ -8,6 +8,9 @@ export default function About() {
         <p class="page-content">
           My name is Ruben Iacono. I am currently studying web development and Graphic Design.
         </p>
+        <p class="page-content">
+          
+        </p>
       </div> 
     </div>
   );
