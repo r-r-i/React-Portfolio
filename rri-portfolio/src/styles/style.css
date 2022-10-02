@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 :root {
-    --main-color: #65737e;
-    --main-text: #c0c5ce;
-    --sub-text: 
+    --main-color: #dcdee5;
+    --main-text: #333;
+    --sub-text: #2AAA8A;
+    --sub-sub-text: #478778;
 }
 ::placeholder {
     color: var(--main-text);
@@ -11,11 +12,20 @@
     font-weight:900px
 }
 body {
-    background-color:#65737e ;
+    background-color:var(--main-color);
+    margin: 0;
+    padding: 0
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right: 50px;
 }
 
 .page-container {
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .page-header {
     display: flex;
@@ -31,6 +41,8 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-weight: 300;
     color: var(--main-text);
+    font-size: 30px;
+    padding-top: 50px;
     
 }
 .navbar {
@@ -52,9 +64,12 @@ body {
     font-family: 'Exo 2', sans-serif;
     padding: 20px;
 }
+.nav-link:hover {
+    color: var(--sub-sub-text);
+}
 .active-nav {
     text-decoration: none;
-    color: black;
+    color: var(--sub-text);
     font-family: 'Exo 2', sans-serif;
     padding: 20px;
 }
@@ -73,6 +88,9 @@ body {
     color: var(--main-text);
     padding: 30px
 }
+.icon:hover {
+    color: var(--sub-text);
+}
 form {
     width: 90%;
     max-width: 500px;
@@ -90,10 +108,10 @@ button {
     float: right;;
     margin-left: 15px;
     border-radius: 3px;
-    border: solid 1px #FFF;
+    border: solid 1px var(--sub-text);
     padding: 4px 7px;
     font-family: 'Exo 2', sans-serif;
-    background: var(--main-text);
+    background: var(--main-color);
     cursor: pointer;
 }
 .form-color {
@@ -105,5 +123,74 @@ button {
 }
 .contact-form {
     padding-top: 100px
+}
+/* ------------------------------------------------------------
+                    ABOUT PAGE ANIMATION
+                        credit to:
+            https://codepen.io/sacsam005/pen/yLpwwqw
+--------------------------------------------------------------- */
+.anim-container {
+    width: 100%;
+    position: relative;
+    
+}
+.span-container {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50% -50%);
+    position: absolute;
+    top: 42%;
+    left: 45%;
+}
+span {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    animation: speed 2s infinite ease-in-out;
+}
+.one {
+    background: #C4F1BE;
+    animation-delay: 1.5s;
+}
+.two {
+    background: #A2C3A4;
+    animation-delay: 1s;
+}
+.three {
+    background: #869D96;
+    animation-delay: 0.5s;
+}
+.four {
+    background: #525B76;
+}
+@keyframes speed {
+    0% {
+        transform: translate(0%);
+        border-radius: 50%;
+    }
+
+    25% {
+        transform: translate(150%) scale(0.5);
+        border-radius: 0%;
+    }
+
+    50% {
+        transform: translate(150%, 150%);
+        border-radius: 50%;
+    }
+
+    75% {
+        transform: translate(0, 150%) scale(0.5);
+        border-radius: 0%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .span-container {
+    left: 40%;
+    }
 }
 
