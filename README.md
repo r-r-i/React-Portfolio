@@ -2,9 +2,9 @@
 
 ## Task
 ```
-For this challenge, I was givent he task of creating a portfolio using the 
-React skills I have acquired so far. This application is deployed via GitHub 
-pages.
+For this challenge, I was givent he task of creating a portfolio using 
+the React skills I have acquired so far. This application is deployed
+via GitHub pages.
 ```
 
 ## Submission
