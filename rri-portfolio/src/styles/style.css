@@ -146,7 +146,7 @@ button {
 .row {
     display: flex;
     justify-content: center;
-    padding-top: 100px
+    padding-top: 75px
 }
 
 /* Clear floats after the columns */
@@ -156,8 +156,30 @@ button {
     clear: both;
 }
 .card {
+    
     font-family: 'Exo 2', sans-serif;
     font-weight: 300;
+}
+.cocktail-card {
+    background: url("../../public/cocktail64.png") no-repeat center center;
+}
+.workout-card {
+    background: url("../../public/dumbbell64.png") no-repeat center center;
+}
+.text-card {
+    background: url("../../public/abc.png") no-repeat center center;
+}
+.blog-card {
+    background: url("../../public/tech64.png") no-repeat center center;
+}
+.password-card {
+    background: url("../../public/lock64.png") no-repeat center center;
+}
+.weather-card {
+    background: url("../../public/weather64.png") no-repeat center center;
+}
+.card-head {
+    padding-bottom: 100px
 }
 
 /* Responsive columns */
