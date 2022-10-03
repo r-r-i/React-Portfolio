@@ -94,6 +94,16 @@ body {
 .icon:hover {
     color: var(--sub-text);
 }
+.resume-download {
+    display: flex;
+    justify-content: center;
+    color: var(--main-text);
+    font-size: 50px;
+    margin-top: 300px;
+}
+.resume-download:hover {
+    color: var(--sub-text)
+}
 form {
     width: 90%;
     max-width: 500px;
