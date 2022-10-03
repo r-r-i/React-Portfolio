@@ -1,4 +1,6 @@
 import React from 'react';
+import { VscGithub } from "react-icons/vsc";
+import { FiGlobe } from "react-icons/fi";
 
 export default function Portfolio() {
   return (
@@ -11,46 +13,70 @@ export default function Portfolio() {
       <div class="row">
         <div class="column">
           <div class="card">
-            <h3>Card 1</h3>
+            <h3>Cocktail App</h3>
             <p>Some text</p>
             <p>Some text</p>
+            <div class="project-link">
+              <a class="icon" href="https://github.com/r-r-i/Project-1-Cheap-Date" target="_blank" rel="noreferrer noopener"><VscGithub /></a>
+              <a class="icon" href="https://nessjade96.github.io/cheap-date/index.html" target="_blank" rel="noreferrer noopener"><FiGlobe /></a>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Card 2</h3>
+            <h3>Workout App</h3>
             <p>Some text</p>
             <p>Some text</p>
+            <div class="project-link">
+              <a class="icon" href="https://github.com/r-r-i/do-you-lift" target="_blank" rel="noreferrer noopener"><VscGithub /></a>
+              <a class="icon" href="https://salty-ridge-96244.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FiGlobe /></a>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Card 3</h3>
+            <h3>Text Editor</h3>
             <p>Some text</p>
             <p>Some text</p>
+            <div class="project-link">
+              <a class="icon" href="https://github.com/r-r-i/PWA-Text-Editor" target="_blank" rel="noreferrer noopener"><VscGithub /></a>
+              <a class="icon" href="https://quiet-tor-93485.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FiGlobe /></a>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Card 4</h3>
+            <h3>Tech Blog</h3>
             <p>Some text</p>
             <p>Some text</p>
+            <div class="project-link">
+              <a class="icon" href="https://github.com/r-r-i/MVC-Blog" target="_blank" rel="noreferrer noopener"><VscGithub /></a>
+              <a class="icon" href="https://agile-bastion-55945.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FiGlobe /></a>
+            </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="column">
           <div class="card">
-            <h3>Card 4</h3>
+            <h3>Random Password</h3>
             <p>Some text</p>
             <p>Some text</p>
+            <div class="project-link">
+              <a class="icon" href="https://github.com/r-r-i/Random-Password-Generator" target="_blank" rel="noreferrer noopener"><VscGithub /></a>
+              <a class="icon" href="https://r-r-i.github.io/Random-Password-Generator/" target="_blank" rel="noreferrer noopener"><FiGlobe /></a>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Card 4</h3>
+            <h3>Weather Dash</h3>
             <p>Some text</p>
             <p>Some text</p>
+            <div class="project-link">
+              <a class="icon" href="https://github.com/r-r-i/Weather-Dashboard" target="_blank" rel="noreferrer noopener"><VscGithub /></a>
+              <a class="icon" href="https://r-r-i.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer noopener"><FiGlobe /></a>
+            </div>
           </div>
         </div>
       </div>

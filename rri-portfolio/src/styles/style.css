@@ -127,6 +127,9 @@ button {
 .contact-form {
     padding-top: 100px
 }
+.project-link {
+    align-items: center;
+}
 .form-section {
     padding-top: 100px
 }/* ------------------------------------------------------------
@@ -165,22 +168,14 @@ button {
         margin-bottom: 20px;
     }
 }
-
 /* Style the counter cards */
 .card {
-    box-shadow: 0 4px 8px 0 var(--main-text);
     padding: 16px;
     text-align: center;
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    border: 1.35px solid var(--main-text);
+    border-radius: 10px;
 }
-
-
-
-
-
-
-
-
 /* ------------------------------------------------------------
                     ABOUT PAGE ANIMATION
                         credit to:
