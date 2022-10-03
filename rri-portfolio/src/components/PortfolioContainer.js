@@ -7,7 +7,7 @@ import Contact from './pages/contact/Contact';
 import Footer from './pages/footer/footer'
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Portfolio') {

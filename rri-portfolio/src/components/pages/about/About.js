@@ -5,6 +5,7 @@ export default function About() {
     <div>
       <div class="about-container">
         <div class="page-container">
+          <h1 class="page-header">Ruben</h1>
           <p class="page-content">
             I'm an Australian based web developer & graphic designer, passionate about programming, 3D animation, and simple color combinations. My style is rather graphical and minimalistic with a hint of animation.
           </p>

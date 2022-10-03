@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+  }
 :root {
     --main-color: #dcdee5;
     --main-text: #333;
@@ -19,14 +22,14 @@ body {
 .about-container {
     display: flex;
     flex-direction: row;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 200px;
     margin-right: 50px;
 }
 
-.page-container {
-    /* margin-top: 50px; */
-}
+/* .page-container {
+    margin-bottom: px;
+} */
 .page-header {
     display: flex;
     justify-content: center;
@@ -100,7 +103,7 @@ input, textarea {
     width: 100%;
     margin-bottom: 10px;
     border-radius: 3px;
-    border: solid 1px #FFF;
+    border: solid 1.25px var(--main-text);
     padding: 4px 7px;
 }
 button {
@@ -111,7 +114,7 @@ button {
     border: solid 1px var(--sub-text);
     padding: 4px 7px;
     font-family: 'Exo 2', sans-serif;
-    background: var(--main-color);
+    background: var(--sub-text);
     cursor: pointer;
 }
 .form-color {
@@ -124,6 +127,60 @@ button {
 .contact-form {
     padding-top: 100px
 }
+.form-section {
+    padding-top: 100px
+}/* ------------------------------------------------------------
+                    PORTFOLIO PAGE - card styling             
+--------------------------------------------------------------- */
+/* Float four columns side by side */
+.column {
+    float:left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+.row {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 var(--main-text);
+    padding: 16px;
+    text-align: center;
+    background-color: var(--main-color)
+}
+
+
+
+
+
+
+
+
 /* ------------------------------------------------------------
                     ABOUT PAGE ANIMATION
                         credit to:
@@ -141,8 +198,8 @@ button {
     height: 100px;
     transform: translate(-50% -50%);
     position: absolute;
-    top: 42%;
-    left: 45%;
+    top: 57%;
+    left: 40%;
 }
 span {
     display: block;
