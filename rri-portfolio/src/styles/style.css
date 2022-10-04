@@ -98,11 +98,25 @@ body {
     display: flex;
     justify-content: center;
     color: var(--main-text);
-    font-size: 50px;
-    margin-top: 300px;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 125px;
 }
 .resume-download:hover {
     color: var(--sub-text)
+}
+.pro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+.pro-list {
+    list-style: none;
+    margin: 70px;
+    padding: 0;
+    text-align: center;
 }
 form {
     width: 90%;
