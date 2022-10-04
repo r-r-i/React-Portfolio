@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rri-portfolio/static/css/main.0bb8c613.css",
+    "main.js": "/rri-portfolio/static/js/main.6cede65d.js",
+    "index.html": "/rri-portfolio/index.html",
+    "static/media/resume.txt": "/rri-portfolio/static/media/resume.b08c6091248e98625dd5.txt",
+    "main.0bb8c613.css.map": "/rri-portfolio/static/css/main.0bb8c613.css.map",
+    "main.6cede65d.js.map": "/rri-portfolio/static/js/main.6cede65d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bb8c613.css",
+    "static/js/main.6cede65d.js"
+  ]
+}
