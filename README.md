@@ -12,7 +12,7 @@ via GitHub pages.
 ```
 Deployed via GitHub pages.
 
-- deployed url: 
+- deployed url: https://r-r-i.github.io/React-Portfolio/#about
 ```
 
 ## Installation Instructions
